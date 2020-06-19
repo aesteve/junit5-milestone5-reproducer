@@ -1,3 +1,17 @@
+The fix is pretty simple, starting with 4.0.0-milestone5, you should add:
+
+```
+testImplementation("io.vertx:vertx-junit5-rx-java2:4.0.0-milestone5")
+```
+
+to the list of your dependencies, and it works perfectly fine.
+
+
+-------------
+
+Original issue: 
+ 
+
 Just run `gradle test`
 
 

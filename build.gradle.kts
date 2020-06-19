@@ -14,6 +14,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     testImplementation("io.vertx:vertx-rx-java2:4.0.0-milestone5")
     testImplementation("io.vertx:vertx-junit5:4.0.0-milestone5")
+    testImplementation("io.vertx:vertx-junit5-rx-java2:4.0.0-milestone5") // <-- This is the fix!
 }
 
 
